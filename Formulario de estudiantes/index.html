@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Estudiante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <hgroup>
+        <div class="container">
+            <h2 class="tittle">Formulario de estudiantes</h2>
+            <form id="studentForm">
+                <label for="name">Nombre de estudiante</label>
+                <input type="text" id="nombre" required>
+
+                <label for="institution">Institución</label>
+                <select type="text" name="" id="institucion">
+                    <option value="" disable selected>
+                        Selecciona tu institucion
+                    </option>
+                    <option value="I.E Las Nieves">I.E. LAS NIEVES</option>
+                    <option value="san lorenzo">San Lorenzo</option>
+                </select>
+
+                <label for="Grade">Grado:</label>
+                <select type="text" name="" id="grado" required>
+                   
+                    <option value="9°">Noveno</option>
+                    <option value="10°">Decimo</option>
+                    <option value="11°">Undecimo</option>
+                </select>
+
+                <button class="button-enviar"  onclick="agregarEstudiante()" type="submit" id="name" required>Agregar Estudiante</button>
+            </form>
+        </div>
+
+        <div class="tabla">
+            <h3 class="tittle">Lista de Estudiantes</h3>
+            <table id="studets-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Institución</th>
+                        <th>Grado</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Promedio</th>
+                    </tr>
+                    <tbody id="tabla-body">
+                        <!--Fila de estudiantes que se adicionan-->
+                    </tbody>
+                </thead>
+
+                <tbody>
+                </tbody>
+
+            </table>
+            <button class="button-average" onclick="calcularTodosLosPromedios()" id="calculate-average">Calcular Promedio</button>
+        </div>
+    </hgroup>
+    <script src="script.js"></script>
+</body>
+</html>

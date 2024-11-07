@@ -1,0 +1,134 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: transparent;
+    background: rgb(46, 46, 63);
+}
+
+/**ESTILOS DEL FORMULARIO**/
+
+.container {
+    max-width: 350px;
+    margin: 40px;
+    background: rgb(2,0,36);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 30px; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #bdc3c7;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #2c3e50;
+    background: rgb(18, 16, 54);
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+}
+
+select[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #7f8c8d;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: rgb(18, 16, 54);
+    color: #fff;
+}
+
+select[type="text"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+}
+
+select, input[type="number"] {
+    width: 100%;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(18, 16, 54);
+    padding: 10px 15px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(33, 32, 86);
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+}
+
+hgroup {
+    display: flex;
+}
+
+/**ESTILOS  DE LA TABLA**/
+
+.tabla {
+    max-height:  auto 150px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    background: rgb(2,0,36);
+    padding: 20px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.students-table {
+    margin-right: 1rem;
+}
+
+.tabla table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabla table, .tabla th, .tabla td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+.tabla th {
+    background: rgb(18, 16, 54);
+}
