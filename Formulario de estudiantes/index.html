@@ -21,16 +21,25 @@
                     <option value="" disable selected>
                         Selecciona tu institucion
                     </option>
-                    <option value="I.E Las Nieves">I.E. LAS NIEVES</option>
-                    <option value="san lorenzo">San Lorenzo</option>
+                    <option value="I.E Las Nieves">I.E Las Nieves</option>
+                    <option value="San Lorenzo">I.E San Lorenzo </option>
+                    <option value="I.E Gabriel Restrepo">I.E Gabriel Restrepo </option>
+                    <option value="I.E Fé y Alegria ">I.E Fé y Alegria </option>
+                    <option value="I.E Jose Roberto">I.E Jose Roberto </option>
+                    <option value="I.E INEM">I.E INEM</option>
                 </select>
 
                 <label for="Grade">Grado:</label>
                 <select type="text" name="" id="grado" required>
-                   
+                    <option value="" disable selected>
+                        Selecciona tu grado
+                    </option>
+                    <option value="6°">Sexto</option>
+                    <option value="7°">Septimo</option>
+                    <option value="8°">Octavo</option>
                     <option value="9°">Noveno</option>
                     <option value="10°">Decimo</option>
-                    <option value="11°">Undecimo</option>
+                    <option value="11°">Once</option>
                 </select>
 
                 <button class="button-enviar"  onclick="agregarEstudiante()" type="submit" id="name" required>Agregar Estudiante</button>
@@ -38,7 +47,7 @@
         </div>
 
         <div class="tabla">
-            <h3 class="tittle">Lista de Estudiantes</h3>
+            <h2 class="tittle">Lista de Estudiantes</h2>
             <table id="studets-table">
                 <thead>
                     <tr>
@@ -48,6 +57,8 @@
                         <th>Nota 1</th>
                         <th>Nota 2</th>
                         <th>Nota 3</th>
+                        <th>Nota 4</th>
+                        <th>Nota 5</th>
                         <th>Promedio</th>
                     </tr>
                     <tbody id="tabla-body">

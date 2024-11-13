@@ -10,7 +10,7 @@ body {
 /**ESTILOS DEL FORMULARIO**/
 
 .container {
-    max-width: 350px;
+    max-width: 400px;
     margin: 40px;
     background: rgb(2,0,36);
     padding: 20px;
@@ -22,6 +22,7 @@ h2 {
     text-align: center;
     color: #bbb;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 form {
@@ -89,6 +90,7 @@ button {
     border-radius: 5px;
     color: #fff;
     width: 100%;
+    text-transform: uppercase;
 }
 
 button:hover {
@@ -131,4 +133,10 @@ h3 {
 }
 .tabla th {
     background: rgb(18, 16, 54);
+    text-transform: uppercase;
+    
+}
+
+.promedio {
+    color: rgb(0, 255, 0);
 }
